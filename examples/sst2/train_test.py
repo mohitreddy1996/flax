@@ -61,7 +61,7 @@ class TrainTest(absltest.TestCase):
         optimizer=optimizer, inputs=ex['sentence'], lengths=ex['length'],
         labels=ex['label'], rng=jax.random.PRNGKey(seed=seed), l2_reg=1e-6)
 
-    self.assertGreaterEqual(loss, 0.0)
+    self.assertGreaterEqual(loss, 0.6969)
 
 
 if __name__ == '__main__':
