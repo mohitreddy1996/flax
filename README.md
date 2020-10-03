@@ -1,4 +1,4 @@
-# Flax: A neural network library for JAX designed for flexibility
+# Flax: A neural network library for JAX designed for flexibilit
 
 [![coverage](https://badgen.net/codecov/c/github/google/flax)](https://codecov.io/github/google/flax)
 
